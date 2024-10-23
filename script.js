@@ -65,9 +65,9 @@ function updateScores() {
 
 function endGame() {
     if (player_score > computer_score) {
-        messageDiv.innerText += "\nCongratulations! You won the game!";
+        messageDiv.innerText += "\nCongratulations! You won the game!, refresh the page to play again.";
     } else if (player_score < computer_score) {
-        messageDiv.innerText += "\nSorry, you lost the game. Better luck next time!";
+        messageDiv.innerText += "\nSorry, you lost the game. Better luck next time!, refresh the page to play again.";
     } else {
         messageDiv.innerText += "\nIt's a tie overall!";
     }
